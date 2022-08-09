@@ -1,1 +1,2 @@
-our group work Seid and Selehadin project on printf
+our group projects on printf
+ Seid Muhammed, Selehadin Seid
