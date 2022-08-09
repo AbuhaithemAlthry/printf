@@ -5,11 +5,11 @@
 * Descriptions: prints digit with _putchar
 * Return: size the output text
 */
-int print_dec(va_list d)
+int print_dec(va_list e)
 {
 	int len, powten, j, digit, n, count = 0, num;
 
-	n = va_arg(d, int);
+	n = va_arg(e, int);
 	if (n != 0)
 	{
 		if (n < 0)

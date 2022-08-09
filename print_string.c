@@ -7,12 +7,12 @@
  *
  * Return: 1.
  */
-int print_string(va_list s)
+int print_string(va_list h)
 {
 	char *my_string;
 	int  i = 0;
 
-	my_string = va_arg(s, char *);
+	my_string = va_arg(h, char *);
 	if (my_string == NULL)
 		my_string = "(null)";
 	while (my_string[i])

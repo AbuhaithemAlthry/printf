@@ -6,12 +6,12 @@
 * @b: number in decinal
 * Return: number of chars printed
 */
-int print_bin(va_list b)
+int print_bin(va_list a)
 {
 	unsigned int len, powten, j, digit, n, num;
 	int count = 0;
 
-	n = va_arg(b, unsigned int);
+	n = va_arg(a, unsigned int);
 	if (n != 0)
 	{
 		num = n;

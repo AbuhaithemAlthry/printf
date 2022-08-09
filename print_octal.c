@@ -5,12 +5,12 @@
 * Descriptions: prints unsigned octal
 * Return: size the output
 */
-int print_octal(va_list o)
+int print_octal(va_list f)
 {
 	unsigned int len, powten, j, digit, n, num;
 	int count = 0;
 
-	n = va_arg(o, unsigned int);
+	n = va_arg(f, unsigned int);
 	if (n != 0)
 	{
 		num = n;

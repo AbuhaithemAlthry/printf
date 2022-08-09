@@ -5,12 +5,12 @@
 * Descriptions: prints unsigned number with putchar
 * Return: size the output
 */
-int print_unsig(va_list u)
+int print_unsig(va_list k)
 {
 	unsigned int len, powten, j, digit, n, num;
 	int count = 0;
 
-	n = va_arg(u, unsigned int);
+	n = va_arg(k, unsigned int);
 	if (n != 0)
 	{
 		num = n;

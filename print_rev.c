@@ -6,12 +6,12 @@
 *@r: string to print
 *Return: number of chars printed
 */
-int print_rev(va_list r)
+int print_rev(va_list g)
 {
 	char *st;
 	int i, j = 0;
 
-	st = va_arg(r, char *);
+	st = va_arg(g, char *);
 	if (st == NULL)
 		st = ")llun(";
 	for (i = 0; st[i] != '\0'; i++)
